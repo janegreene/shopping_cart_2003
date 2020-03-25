@@ -3,7 +3,7 @@ class Product
               :name,
               :unit_price,
               :quantity,
-              :hoard #not sure about this
+              :hoard
 
   def initialize(category, name, unit_price, quantity)
     @category = category
