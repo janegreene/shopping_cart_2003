@@ -7,6 +7,9 @@ class ShoppingCart
     @name = name
     @capacity = capacity.to_i
     @products = []
-    #require "pry"; binding.pry
+  end
+
+  def add_product(product)
+    @products << product
   end
 end
